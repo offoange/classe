@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-vzu58p+#j$r3@)h3s%gg(((p6_l2zxy*76u_bydw=njxm9=3tb
 DEBUG = False
 
 if DEBUG:
-    ALLOWED_HOSTS = ['127.0.0.1']
+    ALLOWED_HOSTS = ['*'] 
 else:
     ALLOWED_HOSTS = ['56.228.26.247', 'esatic-concours.assemiendev.me', '127.0.0.1']
 
